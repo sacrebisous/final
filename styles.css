@@ -322,7 +322,7 @@ p.index {
 
    main {
       border-left: none;
-      margin: auto ;
+      margin: auto;
    }
    
    aside {
@@ -344,6 +344,12 @@ p.index {
 
    nav>ul {
       flex-flow: row;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   main {
+      width: 100%;
    }
 }
 
@@ -370,6 +376,7 @@ p.index {
 
    main {
       padding: 0px;
+      width: 90%;
    }
 
    img.header {
